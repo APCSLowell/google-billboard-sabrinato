@@ -8,7 +8,7 @@ public class GoogleBillboard {
 	
 
 	//Finish this function
-	public boolean isPrime(){
+	public static boolean isPrime(){
 	}
 
 }
