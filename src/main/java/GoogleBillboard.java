@@ -18,6 +18,17 @@ public class GoogleBillboard {
 
 	//Finish this function
 	public static boolean isPrime(){
+		boolean prime = true;
+		  if (num < 2){
+    		prime = false;
+  			}
+  
+ 			 for (int i = 2; i <= (Math.sqrt(num)); i++){
+    			if (num % i == 0){
+    			  prime = false;
+    		}
+  		}
+ 		 return prime;
 	}
 
 }
